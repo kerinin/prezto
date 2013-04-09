@@ -10,5 +10,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+export PATH=/Users/rmichael/.rbenv/shims:/Users/rmichael/.rbenv/bin:/Users/rmichael/environment/bin:/usr/local/bin:/Users/rmichael/.rbenv/shims:/Users/rmichael/.rbenv/bin:/Users/rmichael/environment/bin:/usr/local/bin:/Users/rmichael/.rbenv/shims:/Users/rmichael/.rbenv/bin:/Users/rmichael/environment/bin:/usr/local/bin:/Library/Frameworks/GDAL.framework/Programs:/Users/rmichael/.rbenv/shims:/Users/rmichael/.rbenv/bin:/Users/rmichael/environment/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/rmichael/.rbenv/versions/rbx-2.0.0-dev/gems/1.9/bin:/Users/rmichael/.rbenv/versions/rbx-2.0.0-dev/gems/1.9/bin:/Users/rmichael/.rbenv/versions/rbx-2.0.0-dev/gems/1.9/bin:/Users/rmichael/.rbenv/versions/rbx-2.0.0-dev/gems/1.9/bin
 
+export AWS_CREDENTIALS=~/work/aws_credentials.yml
+
+. ~/environment/.profile_osx
