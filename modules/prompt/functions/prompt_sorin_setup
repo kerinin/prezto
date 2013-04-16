@@ -62,9 +62,9 @@ function prompt_sorin_setup {
   zstyle ':prezto:module:git:info:renamed' format ' %F{magenta}➜%f'
   zstyle ':prezto:module:git:info:stashed' format ' %F{cyan}✭%f'
   zstyle ':prezto:module:git:info:unmerged' format ' %F{yellow}═%f'
-  zstyle ':prezto:module:git:info:untracked' format ' %F{white}◼%f'
+  zstyle ':prezto:module:git:info:untracked' format ' ◼'
   zstyle ':prezto:module:git:info:keys' format \
-    'prompt' ' %F{blue}±:%f$(coalesce "%b" "%p" "%c")%s %A%B%S%a%d%m%r%U%u ' \
+    'prompt' ' %F{blue}±$(basename $(git-root))%r:%f$(coalesce "%b" "%p" "%c")%s %A%B%S%a%d%m%r%U%u ' \
     'rprompt' '%A%B%S%a%d%m%r%U%u'
     zstyle ':prezto:module:ruby:info:version' format 'ruby:%v'
 
